@@ -1,0 +1,88 @@
+.shapessection {
+  border: 3px solid black;
+  color: white;
+  /* background: linear-gradient(to right,pink,black,grey); */
+  padding: 10px;
+}
+.firstcircle {
+  border-radius: 50%;
+  border: 3px solid;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: orange;
+}
+.firstsquare {
+  border: 3px solid;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  background-color: blue;
+  margin-left: 200px;
+}
+.secondcircle {
+  border-radius: 50%;
+  border: 3px solid;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: green;
+  margin-left: 500px;
+}
+.secondsquare {
+  border: 3px solid;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  background-color: purple;
+  margin-left: 200px;
+}
+.thirdcircle {
+  border-radius: 50%;
+  border: 3px solid;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: red;
+}
+.firstcircle p {
+  padding-top: 70px;
+}
+.firstsquare p {
+  padding-top: 50px;
+}
+.secondcircle p {
+  padding-top: 70px;
+}
+.secondsquare p {
+  padding-top: 50px;
+}
+.thirdcircle p {
+  padding-top: 70px;
+}
+hr {
+  width: 300px;
+  height: 50px;
+  background-color: blue;
+  margin-bottom: 50px;
+}
+body {
+  background-color: black;
+}
+button {
+  border: none;
+  background: blue;
+  padding: 0.8em 2.5em;
+  border-radius: 100px;
+  color: antiquewhite;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 50;
+  cursor: pointer;
+  transition: 150ms ease;
+  margin: 50px 40px 40px 200px;
+}
+button :hover {
+  background-color: aquamarine;
+  scale: 2;
+}
